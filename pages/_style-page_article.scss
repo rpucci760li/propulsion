@@ -1,0 +1,101 @@
+// Généralités
+
+.retour_page_precedente{
+    width: 15%;
+    height: auto;
+    background-color: $c-bgca;
+    margin-left: 25px;
+    border-radius: rem(5);
+    @include box-shadow;
+}
+
+.a_retour_page_precedente{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: rem(20);
+    margin-top: 10px;
+}
+
+.fa-arrow-alt-circle-left{
+    font-size: rem(30);
+}
+
+// In article 
+
+.space_text_inarticle{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.banniere_intro_article{
+    width: 100%;
+    height: auto;
+    display: flex;
+    border: solid 1px black;
+}
+
+.titre_principal_article{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'orkneybold', Tahoma, Verdana, sans-serif;
+    font-size: rem(40);
+}
+
+.img_banniere_intro_article{
+    width: 50%;
+    height: auto;
+    background-image: url('../img/notebook-and-coffee.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sections_inarticle{
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+.sous_titre_inarticle{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    font-size: rem(30);
+    font-family: 'orkneybold', Tahoma, Verdana, sans-serif;
+}
+
+.texte_inarticle{
+    width: 90%;
+    height: auto;
+    margin: 10px auto 10px auto;
+    font-size: rem(20);
+    font-family: 'orkneylight', Tahoma, Verdana, sans-serif;
+    line-height: rem(25);
+    font-weight: 300;
+}
+
+.ul_inarticle{
+    width: 50%;
+    height: auto;
+    margin: 25px auto 25px auto;
+}
+
+.li_inarticle{
+    font-size: rem(20);
+    font-family: 'orkneylight', Tahoma, Verdana, sans-serif;
+    list-style: circle;
+    line-height: rem(40);
+    font-weight: 300;
+}

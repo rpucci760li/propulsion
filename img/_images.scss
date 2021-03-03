@@ -1,0 +1,29 @@
+// Accueil: Card articles 
+
+.cstpepme{
+    width: 100%;
+    height: 500px;
+    background: url('/img/brainstorm-meeting.jpg');
+    @include style_image;
+}
+
+.pc_shop{
+    width: 50%;
+    height: 500px;
+    background: url('/img/buying-online-black-friday.jpg');
+    @include style_image;
+}
+
+.ecommerce{
+    width: 50%;
+    height: 500px;
+    background: url('/img/man-holding-shipping-box-on-red-brick.jpg');
+    @include style_image;
+}
+
+.management{
+    width: 100%;
+    height: 500px;
+    background: url('/img/modern-businessman-in-india.jpg');
+    @include style_image;
+}

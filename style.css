@@ -1,0 +1,1034 @@
+@-webkit-keyframes btn_hover {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@keyframes btn_hover {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@-webkit-keyframes img_index {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  75% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+}
+
+@keyframes img_index {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  75% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+}
+
+@font-face {
+  font-family: 'orkneybold';
+  src: url("/fonts/orkney_bold_macroman/orkney-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'orkneylight';
+  src: url("/fonts/orkney_light_macroman/orkney-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'orkneymedium';
+  src: url("/fonts/orkney_medium_macroman/orkney-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'orkneyregular';
+  src: url("/fonts/orkney_regular_macroman/orkney-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.article_text {
+  font-family: 'orkneyregular';
+  font-size: 1.5625rem;
+}
+
+.link_article {
+  font-family: 'orkneyregular';
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: white;
+}
+
+.title_theme {
+  font-family: 'orkneyregular';
+  font-size: 1.625rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.inpage_title_article {
+  font-family: 'orkneyregular';
+  font-size: 1.25rem;
+  color: white;
+  text-align: center;
+}
+
+.inpage_theme_article {
+  font-family: 'orkneyregular';
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.title_article {
+  font-family: 'orkneyregular';
+  font-size: 18px;
+  color: white;
+}
+
+.theme_article {
+  font-family: 'orkneyregular';
+  font-size: 16px;
+  color: white;
+}
+
+.title_contact {
+  font-family: 'orkneymedium';
+  font-size: xx-large;
+}
+
+.card_contact {
+  font-family: 'orkneylight';
+  font-size: 30px;
+  color: white;
+}
+
+.title_link_article {
+  font-family: 'orkneylight';
+  font-size: 25px;
+  color: black;
+  text-shadow: white 1px 1px 3px;
+}
+
+.title_footer {
+  font-family: 'orkneyregular';
+  font-size: x-large;
+  color: white;
+}
+
+.slogan_footer {
+  font-family: 'orkneylight';
+  font-size: large;
+  color: white;
+  margin: 0;
+}
+
+.address_contact {
+  font-family: 'orkneylight';
+  font-size: 20px;
+  font-style: normal;
+  color: white;
+}
+
+.title_nav_inarticle {
+  font-family: 'orkneyregular';
+  font-size: 2.25rem;
+  text-shadow: white 1px 1px 3px;
+}
+
+.subtitle_inpage_article {
+  font-family: 'orkneyregular';
+  font-size: 1.625rem;
+}
+
+.paragraph_inpage_article {
+  font-family: 'orkneylight';
+  font-size: 1.25rem;
+}
+
+.retour_page_precedente {
+  width: 15%;
+  height: auto;
+  background-color: slategray;
+  margin-left: 25px;
+  border-radius: 0.3125rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 3px;
+          box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 3px;
+}
+
+.a_retour_page_precedente {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+
+.fa-arrow-alt-circle-left {
+  font-size: 1.875rem;
+}
+
+.space_text_inarticle {
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+
+.banniere_intro_article {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: solid 1px black;
+}
+
+.titre_principal_article {
+  width: 50%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-family: 'orkneybold', Tahoma, Verdana, sans-serif;
+  font-size: 2.5rem;
+}
+
+.img_banniere_intro_article {
+  width: 50%;
+  height: auto;
+  background-image: url("../img/notebook-and-coffee.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sections_inarticle {
+  width: 60%;
+  height: auto;
+  margin: auto;
+}
+
+.sous_titre_inarticle {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  font-size: 1.875rem;
+  font-family: 'orkneybold', Tahoma, Verdana, sans-serif;
+}
+
+.texte_inarticle {
+  width: 90%;
+  height: auto;
+  margin: 10px auto 10px auto;
+  font-size: 1.25rem;
+  font-family: 'orkneylight', Tahoma, Verdana, sans-serif;
+  line-height: 1.5625rem;
+  font-weight: 300;
+}
+
+.ul_inarticle {
+  width: 50%;
+  height: auto;
+  margin: 25px auto 25px auto;
+}
+
+.li_inarticle {
+  font-size: 1.25rem;
+  font-family: 'orkneylight', Tahoma, Verdana, sans-serif;
+  list-style: circle;
+  line-height: 2.5rem;
+  font-weight: 300;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header_otherpages {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.nav_logo {
+  width: 30%;
+  height: 300px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nav_logo_otherpages {
+  width: 20%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.logo {
+  font-family: 'orkneyregular';
+  font-size: 3.75rem;
+  margin: 0;
+  text-shadow: white 1px 1px 3px;
+  text-transform: uppercase;
+}
+
+.logo_otherpages {
+  font-family: 'orkneyregular';
+  font-size: 2.1875rem;
+  margin: 0;
+  text-shadow: white 1px 1px 3px;
+  text-transform: uppercase;
+}
+
+.slogan {
+  font-family: 'orkneylight';
+  font-size: 3.125rem;
+  margin: 0;
+  text-shadow: white 1px 1px 3px;
+}
+
+.slogan_otherpages {
+  font-family: 'orkneylight';
+  font-size: 1.875rem;
+  margin: 0;
+  text-shadow: white 1px 1px 3px;
+}
+
+.nav_link {
+  font-family: 'orkneylight';
+  font-size: 20px;
+  color: black;
+}
+
+.space_img_index {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.img_index {
+  width: 100%;
+  height: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav_header {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav_header_otherpages {
+  width: 80%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav_menu {
+  width: 90%;
+  height: auto;
+  margin: 20px auto 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nav_link {
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav_target {
+  list-style: none;
+  text-decoration: none;
+}
+
+.ligne_nav {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 3px;
+          box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 3px;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #36454f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: auto;
+}
+
+.space_logo_footer {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px auto 10px auto;
+}
+
+.title_footer {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: 'orkneybold';
+  font-size: 1rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.logo_footer {
+  font-family: 'orkneybold';
+  font-size: 1.25rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.slogan_footer {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: 'orkneylight';
+  font-size: large;
+  color: white;
+  margin: 0;
+}
+
+.contact_footer {
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav_footer {
+  width: 30%;
+  height: 100%;
+}
+
+.nav_menu_footer {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.adress_contact {
+  width: 100%;
+  height: auto;
+  font-family: 'orkneylight';
+  font-size: 1.25rem;
+  font-style: normal;
+}
+
+.a_contact {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-family: 'orkneylight';
+  font-size: 1.25rem;
+  font-style: normal;
+}
+
+.infos_footer {
+  width: 30%;
+  height: 100%;
+}
+
+.cstpepme {
+  width: 100%;
+  height: 500px;
+  background: url("/img/brainstorm-meeting.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pc_shop {
+  width: 50%;
+  height: 500px;
+  background: url("/img/buying-online-black-friday.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ecommerce {
+  width: 50%;
+  height: 500px;
+  background: url("/img/man-holding-shipping-box-on-red-brick.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.management {
+  width: 100%;
+  height: 500px;
+  background: url("/img/modern-businessman-in-india.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.space {
+  width: 100%;
+  height: 50px;
+}
+
+.website_body {
+  width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.article {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.text_image {
+  width: 100%;
+  height: 500px;
+  margin: 0;
+  cursor: pointer;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.title_article_accueil {
+  font-family: 'orkneyregular';
+  font-size: 2.25rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.space_article_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.space_shop_online {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.encart_article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.article_text {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.space_articles {
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+
+.link_article {
+  list-style: none;
+  text-decoration: none;
+}
+
+.space_articles_order {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card_article {
+  width: 30%;
+  height: 200px;
+  background-color: slategray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-left: 15px;
+  border-radius: 20px;
+  margin: 20px auto 20px auto;
+}
+
+.title_article {
+  margin: 0;
+}
+
+.theme_article {
+  margin: 0;
+}
+
+.space_section_articles {
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+
+.section_articles {
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+
+.titre_section_articles {
+  width: 100%;
+  height: auto;
+  font-family: "orkenyregular";
+  font-size: 1.125rem;
+}
+
+.ul_section_article {
+  width: 100%;
+  height: auto;
+  font-family: "orkneyregular";
+  font-size: 0.875rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.li_article {
+  width: 30%;
+  height: auto;
+  list-style: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px auto 15px auto;
+}
+
+.space_img_li_article {
+  width: 50%;
+  height: auto;
+}
+
+.img_li_article {
+  width: 100%;
+  height: auto;
+}
+
+.a_article {
+  width: 50%;
+  height: auto;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.titre_a_article {
+  width: 100%;
+  height: auto;
+  margin: 5px auto 5px 5px;
+}
+
+.resume_a_article {
+  width: 100%;
+  height: auto;
+  margin: 5px auto 5px 5px;
+}
+
+.section_contact {
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+
+.title_contact {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  font-family: 'orkneymedium';
+  font-size: 1.875rem;
+}
+
+.article_contact {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.space_card_contact {
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 3px;
+          box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 3px;
+  border-radius: 0.3125rem;
+}
+
+.space_img_contact {
+  width: 100%;
+  height: auto;
+}
+
+.img_contact {
+  width: 100%;
+  height: auto;
+  border-radius: 0.3125rem;
+}
+
+.card_contact {
+  width: 100%;
+  height: auto;
+  background-color: #899499;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'orkneylight';
+  font-size: 1.25rem;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  border-bottom-left-radius: 0.3125rem;
+  border-bottom-right-radius: 0.3125rem;
+}
+
+.fa-phone-square-alt,
+.fa-envelope-square {
+  margin: 5px;
+}
+
+.article_contact_time {
+  width: 90%;
+  height: 400px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'orkneylight';
+  font-size: 1.25rem;
+}
+
+.paragraphe_contact_time {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ul_time_open {
+  width: 20%;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.li_time_open {
+  width: 300px;
+  height: auto;
+  margin: 10px auto 10px auto;
+  list-style: none;
+  text-align: left;
+}
+/*# sourceMappingURL=style.css.map */

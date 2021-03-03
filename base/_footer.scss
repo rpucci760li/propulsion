@@ -1,0 +1,91 @@
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: $c-footer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.space_logo_footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px auto 10px auto;
+}
+
+.title_footer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'orkneybold';
+    font-size: rem(16);
+    color: $c-words;
+    text-transform: uppercase;
+}
+
+.logo_footer{
+    font-family: 'orkneybold';
+    font-size: rem(20);
+    color: $c-words;
+    text-transform: uppercase;
+}
+
+.slogan_footer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'orkneylight';
+    font-size: large;
+    color: $c-words;
+    margin: 0;
+}
+
+.contact_footer{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_footer{
+    width: 30%;
+    height: 100%;
+}
+
+.nav_menu_footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.adress_contact{
+    width: 100%;
+    height: auto;
+    font-family: 'orkneylight';
+    font-size: rem(20);    
+    font-style: normal;
+}
+
+.a_contact{
+    text-decoration: none;
+    list-style: none;
+    color: $c-words;
+    font-family: 'orkneylight';
+    font-size: rem(20);    
+    font-style: normal;
+}
+
+.infos_footer{
+    width: 30%;
+    height: 100%;
+}
+

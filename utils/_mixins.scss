@@ -1,0 +1,17 @@
+@mixin text-shadow {
+    text-shadow: $c-words 1px 1px 3px;    
+}
+
+@mixin with-shadow {
+    text-shadow: $c-words 1px 1px 2px;    
+}
+
+@mixin box-shadow {
+    box-shadow: $c-mixin-box-shadow 1px 1px 3px;    
+}
+
+@mixin style_image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

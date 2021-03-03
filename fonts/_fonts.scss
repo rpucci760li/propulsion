@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'orkneybold';
+    src: url('/fonts/orkney_bold_macroman/orkney-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'orkneylight';
+    src: url('/fonts/orkney_light_macroman/orkney-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'orkneymedium';
+    src: url('/fonts/orkney_medium_macroman/orkney-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'orkneyregular';
+    src: url('/fonts/orkney_regular_macroman/orkney-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+// Articles
+
+.article_text{
+    font-family: 'orkneyregular';
+    font-size: rem(25);
+}
+
+.link_article{
+    font-family: 'orkneyregular';
+    font-size: rem(18);
+    text-decoration: none;
+    color: $c-words;
+}
+
+.title_theme{
+    font-family: 'orkneyregular';
+    font-size: rem(26);
+    font-weight: bold;
+    text-decoration: none;
+    color: $c-words-dark;
+}
+
+.inpage_title_article{
+    font-family: 'orkneyregular';
+    font-size: rem(20);
+    color: $c-words;
+    text-align: center;
+}
+
+.inpage_theme_article{
+    font-family: 'orkneyregular';
+    font-size: rem(16);
+    color: $c-words;
+    text-align: center;
+}
+
+// Aside
+
+.title_article{
+    font-family: 'orkneyregular';
+    font-size: 18px;
+    color: $c-words;
+}
+
+.theme_article{
+    font-family: 'orkneyregular';
+    font-size: 16px;
+    color: $c-words;
+}
+
+// Pages: Contact
+
+.title_contact{
+    font-family: 'orkneymedium';
+    font-size: xx-large;
+}
+
+.card_contact{
+    font-family: 'orkneylight';
+    font-size: 30px;
+    color: $c-words;
+}
+
+// pages: Activités
+
+.title_link_article{
+    font-family: 'orkneylight';
+    font-size: 25px;
+    color: $c-linav;
+    @include text-shadow;
+}
+
+// Footer
+.title_footer{
+    font-family: 'orkneyregular';
+    font-size: x-large;
+    color: $c-words;
+}
+
+.slogan_footer{
+    font-family: 'orkneylight';
+    font-size: large;
+    color: $c-words;
+    margin: 0;
+}
+
+.address_contact{
+    font-family: 'orkneylight';
+    font-size: 20px;    
+    font-style: normal;
+    color: $c-words;
+}
+
+// Articles/Inarticle
+
+.title_nav_inarticle{
+    font-family: 'orkneyregular';
+    font-size: rem(36);
+    @include text-shadow;
+}
+
+.subtitle_inpage_article{
+    font-family: 'orkneyregular';
+    font-size: rem(26);
+}
+
+.paragraph_inpage_article{
+    font-family: 'orkneylight';
+    font-size: rem(20);
+}
